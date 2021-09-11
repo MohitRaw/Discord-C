@@ -1,0 +1,76 @@
+.chatbar {
+	display: flex;
+	flex-direction: column;
+	background-color: #2f3135;
+	justify-content: flex-start;
+	width: 280px;
+	color: whitesmoke;
+}
+
+.chatbar__header {
+	position: sticky;
+	height: 60px;
+	border-bottom: 1px solid #202225;
+}
+
+.chatbar__header > input {
+	width: 240px;
+	border-radius: 5px 5px;
+	background-color: #202225;
+	padding: 8px;
+	outline: none;
+	border: none;	
+	margin: 10px 12px;
+
+}
+
+.chatbar__mid {
+ 	align-items: center;
+ 	justify-content: center;
+ 	height: 100%;
+}
+
+.chatbar__icon > p {
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+.chatbar__icon > p:hover {
+	background-color: #4f545c;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.direct > p{
+	align-items: center;
+	justify-content: center;
+	margin: 7px;
+	padding: 7px;
+	cursor: pointer;
+}
+
+.chatbar__avatar {
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.chatbar__bottom {
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	background-color: #292b2f;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.chatbar__bottom > Avatar:hover {
+	cursor: pointer;
+}
+
+.chatbar__bottom > div: hover {
+	cursor: pointer;
+}
